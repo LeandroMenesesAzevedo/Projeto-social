@@ -23,6 +23,7 @@ main{
     position: relative;
 }
 
+
 section#telefone{
     /* Configuração para centralizar a imagem do celular. */
     position: absolute;
@@ -65,4 +66,14 @@ section#redes-sociais img:hover{
      box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.400);
      transition: transform .2s, border .4s;
 
+}
+
+footer{
+    background: url(../imagens/degrade.jpg) no-repeat bottom ;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border: none;
 }
